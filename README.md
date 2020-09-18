@@ -1,4 +1,4 @@
-## GitLab's autodevops `herokuish buildpack test` Chrome support for Headless Testing
+## GitLab's autodevops `herokuish buildpack test` support for Chrome Headless Testing
 
 ### The problem
 
@@ -34,5 +34,5 @@ The issue might be solved by installing the Chrome Builpack (https://github.com/
 ### Why like this?
 - AutoDevops ready! Works out of the box, no need to edit the `gitlab-ci.yml` file
 - Uses the official buildpack for Chrome by Heroku without modifying it
-- No side effects. The scripts oly run in the TEST environment and only within herokuish
+- No side effects. The scripts oly runs in the TEST environment and only within herokuish
 - Puppeteer not required
